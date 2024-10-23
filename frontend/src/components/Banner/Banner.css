@@ -1,0 +1,61 @@
+.banner{
+    height: 34vw;
+    background: url('C:/Users/sanik/Desktop/Recipe Sharing Community/frontend/src/assets/banner_image.jpg') no-repeat; 
+    background-size: contain;
+    position:relative; 
+}
+.banner-contents{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap:1vw; 
+    max-width:50%;
+    top:25%;
+    left:30%;
+    animation:fadeIn 3s;
+}
+.banner-contents h2,
+.banner-contents h3,
+.banner-contents p {
+    width: 100%; 
+    color: white;
+    text-align: left;
+    padding-left: 0; 
+    margin: 0; 
+}
+.banner-contents h2{
+    font-weight: 500;
+    color:white;
+    font-size:max(4vw,20px);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.banner-contents h3{
+    font-weight: 400;
+    color:white;
+    font-size:2.2vw;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.banner-contents p{
+    color:white;
+    font-size: 1.1vw;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+@media(max-width:1050px){
+    .banner-contents{
+        max-width: 45%;
+    }
+}
+@media(max-width:750px){
+    .banner-contents{
+        max-width: 65%;
+    }
+    .banner-contents p{
+       display: none;
+    }
+    .banner-contents button{
+        padding:2vw 4vw ;
+    }
+}

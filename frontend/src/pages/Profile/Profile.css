@@ -1,0 +1,69 @@
+ .Container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ProfileCard {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ProfileHeader {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.ProfileInfo {
+  margin-left: 20px;
+}
+
+.RecipesCard {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.RecipeList {
+  margin-top: 20px;
+}
+
+.RecipeRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.RecipeInfo {
+  flex: 1;
+}
+
+.RecipeActions {
+  display: flex;
+  gap: 10px;
+}
+
+.view-button, .delete-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.view-button {
+  background-color: #4CAF50;
+}
+
+.delete-button {
+  background-color: #f44336; 
+}
+

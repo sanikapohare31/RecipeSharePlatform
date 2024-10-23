@@ -1,0 +1,76 @@
+.shared-by-you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  text-align: left;
+
+}
+
+.sidebar-and-recipes {
+  display: flex;
+  left: 0;
+  margin: 0;
+}
+
+.filter-sidebar {
+  flex: 1; 
+  min-width: 200px; 
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-right: 1px solid #ddd; 
+  margin-left: 0;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.recipe-list {
+  flex: 3; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start; 
+  padding: 20px;
+}
+
+.recipe-list h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipe-list p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.apply-filters {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.apply-filters:hover {
+  background-color: #45a049; /* Darker green */
+}
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section h4 {
+  margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.show-more {
+  color: blue; /* Optional: make the "Show More" text blue */
+  cursor: pointer; /* Change cursor to pointer for clickable text */
+  margin-top: 5px; /* Add some space above the "Show More" text */
+}

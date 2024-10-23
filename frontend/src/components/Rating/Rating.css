@@ -1,0 +1,44 @@
+.rating-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 10px auto;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .rating-container h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .rating-input {
+    width: 60px;
+    font-size: 1em;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .rating-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rating-button:hover {
+    background-color: #45a049;
+  }
+  
+  .average-rating {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  

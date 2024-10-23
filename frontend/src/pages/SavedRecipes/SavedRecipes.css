@@ -1,0 +1,68 @@
+/* Style for the saved recipes container */
+.saved-recipes {
+  max-width: 800px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding */
+  font-family: 'Arial', sans-serif; /* Set font */
+}
+
+/* Title styling */
+.saved-recipes h1 {
+  text-align: center; /* Center align the title */
+  font-size: 2.5rem; /* Larger font size for the title */
+  color: #333; /* Darker color for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* List styling */
+.saved-recipes ul {
+  list-style-type: none; /* Remove default list style */
+  padding: 0; /* Remove default padding */
+}
+
+/* Individual recipe item styling */
+.saved-recipes li {
+  background-color: #f9f9f9; /* Light background for recipe items */
+  border: 1px solid #ddd; /* Light border around recipe items */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside each recipe item */
+  margin-bottom: 15px; /* Space between recipe items */
+  transition: box-shadow 0.3s; /* Smooth transition for shadow effect */
+}
+
+/* Recipe item hover effect */
+.saved-recipes li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+/* Recipe title styling */
+.saved-recipes li h2 {
+  font-size: 1.5rem; /* Font size for recipe titles */
+  color: #007BFF; /* Bootstrap primary color for titles */
+  margin: 0 0 10px 0; /* Margin below the title */
+}
+
+/* Ingredients and instructions styling */
+.saved-recipes li p {
+  margin: 5px 0; /* Margin for paragraphs */
+  color: #555; /* Darker gray for text */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .saved-recipes {
+      padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  .saved-recipes h1 {
+      font-size: 2rem; /* Adjust title size on smaller screens */
+  }
+
+  .saved-recipes li {
+      padding: 10px; /* Reduce padding inside recipe items */
+  }
+
+  .saved-recipes li h2 {
+      font-size: 1.25rem; /* Adjust title size on smaller screens */
+  }
+}

@@ -1,0 +1,122 @@
+.recipe-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.recipe-image-wrapper:hover .recipe-image {
+    transform: scale(1.05);
+}
+
+.recipe-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
+
+.recipe-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+    text-align: left;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+.icon{
+    font-size: 12px;
+}
+.ratings {
+    font-size: 12px;
+    /* margin-top: 6px; */
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Space between icon and text */
+}
+
+.reviews-count {
+    font-size: 13px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.recipe-time-save {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 8px;
+}
+
+.recipe-time {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Space between time icon and text */
+}
+
+.save-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.save-icon:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.save-icon.saved {
+    color: #e74c3c; /* Change icon color to red */
+    background-color: rgba(231, 76, 60, 0.1); /* Light red background */
+}
+
+.view-recipe-btn {
+    padding: 10px 16px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 0 0 12px 12px;
+    font-weight: 500;
+}
+
+.view-recipe-btn:hover {
+    background-color: #2980b9;
+}
